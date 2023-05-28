@@ -1,4 +1,4 @@
-# PlateLoc
+# Plate Number Localization using Contour Detection: An Analysis and Implementation
 Abstract: Using image processing methods and the OpenCV library, this project tries to create a system for automatically recognising license plates. License plate localization and license plate image processing will be the system's two key focuses. In order to analyze an image further and extract the license plate number, license plate localization aims to precisely and quickly locate the license plate in the frame. Instead of employing machine learning algorithms, this will be accomplished using conventional image processing approaches. Image acquisition, image enhancement, and final image processing are the three stages of the license plate image processing process. The finished system will be highly accurate and effective in reading license 
 
 # INTRODUCTION
