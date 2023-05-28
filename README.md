@@ -17,13 +17,13 @@ Image pre-processing
 
 	The method of image pre-processing used in this model includes converting the RGB color space to grayscale, applying a bilateral filter to reduce noise and preserve edge information, enhancing image contrast through histogram equalization, extracting structural information with morphological operations, subtracting the result from a reference image, thresholding to produce a binary image, and using Canny edge detection to identify objects. To fill in any blanks or holes in the image of the license plate, dilation and morphological image processing are required for plate number localisation. Dilation helps to connect any broken areas of the license plate by enlarging the pixels in an image. This can help to join any broken white pixels that make up the license plate, which is especially helpful if the image has been thresholded. To fill in any blanks or holes in the image of the license plate, dilation and morphological image processing are required for plate number localisation. Dilation helps to connect any broken areas of the license plate by enlarging the pixels in an image. This can help to join any broken white pixels that make up the license plate, which is especially helpful if the image has been threshold. This method is recomment In summary, the plate number localization procedure greatly benefits from image pre-processing. It is possible to efficiently remove noise and improve the image quality by converting the image to grayscale, filtering it with a bilateral filter, boosting its contrast with histogram equalization, applying morphological operations and subtracting the image, and using thresholding to create a binary image. The precise extraction and localization of the licence plate number on the vehicle is made possible by the employment of Canny edge detection and contour detection. In general, image pre-processing methods are crucial for enabling precise vehicle recognition and assuring the success of plate number localisation.
 	
-	![image](https://github.com/afifimran/PlateLoc/assets/96810907/579e9625-b1a4-46dc-aba6-6f0d8ecaa142)
+![image](https://github.com/afifimran/PlateLoc/assets/96810907/579e9625-b1a4-46dc-aba6-6f0d8ecaa142)
 
 
-	![image](https://github.com/afifimran/PlateLoc/assets/96810907/0a0ebbcf-569d-478e-806a-02f4b0351ef0)
+![image](https://github.com/afifimran/PlateLoc/assets/96810907/0a0ebbcf-569d-478e-806a-02f4b0351ef0)
 	
 	
-	![image](https://github.com/afifimran/PlateLoc/assets/96810907/8e3f689e-8a19-4cf0-9b19-ebcc1fe9b877)
+![image](https://github.com/afifimran/PlateLoc/assets/96810907/8e3f689e-8a19-4cf0-9b19-ebcc1fe9b877)
 	
 
 	
@@ -35,7 +35,7 @@ Plate number region
 
 	The definition of a plate number in the context of plate number localization is the run of letters or digits that appear on a vehicle's license plate. This data, which is often seen on the front or rear of the vehicle, is used to identify the vehicle. Because the contours have been identified on the image, the contour that belongs to the plate can be compared to the approximation and the location of the plate number is shown in the green rectangle on the image. The contour that does not belong to the plate number will be ignored and after all the contours have been compared the best look like contour for plate number will be chosen.
 	
-	![image](https://github.com/afifimran/PlateLoc/assets/96810907/905b95b8-4755-4522-afca-4876b3b2e1e5)
+![image](https://github.com/afifimran/PlateLoc/assets/96810907/905b95b8-4755-4522-afca-4876b3b2e1e5)
 
 
 
